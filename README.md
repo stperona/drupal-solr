@@ -12,7 +12,7 @@ Run a docker build in the repository directory and tag the image something usefu
 ## Run the image:
 Once the image has built, run a container and expose the Solr service to a desired port. The image exposes Solr on port 8983, feel free to map this to the port of your choosing as part of the run command.
 
-`docker run -d -p 8983:8983 -t -i isite/solr`
+`docker run -d -p 8983:8983 -t -i stperona/drupal-solr`
 
 ## Verify server:
 Once the container has been launched, give it 15-30 seconds to fully stand up then verify you can access the instance by navigating to the admin interface.
